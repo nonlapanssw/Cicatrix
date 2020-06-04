@@ -1,0 +1,111 @@
+body{
+    background-color: #DCDCDC;
+}
+
+.loading{
+    width: 20%;
+    display: block;
+    margin: 200px auto 0 auto;
+}
+
+.react-player__preview{
+    background-image: url('./img-source/bg-video.png');
+}
+
+.fullScreen{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.ButtonClick{
+    position: fixed;
+    top: 330px;
+    left: 36.5%;
+}
+
+.ButtonClick img {
+    width: 60%;
+    cursor: pointer;
+}
+
+.LabelButtonHeart{
+    position: fixed;
+    width: 75%;
+    left: 57%;
+    top: 55.5%;
+    transform: translate(-50%, -50%);
+}
+
+.LabelButtonHeart img {
+    position: relative;
+    width: 40%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#label_couple{
+    left: 45%;
+    bottom: 75px
+}
+
+#label_pet{
+    right: 22%;
+    bottom: 206px
+}
+
+#label_friend{
+    right: 4%;
+}
+
+#label_family{
+    width: 50%;
+    top: 140px;
+    right: 10%;
+}
+
+.ButtonChoosePain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ButtonChoosePain img{
+    cursor: pointer;
+    width: 23%;
+    z-index: 1;
+    position: relative;
+    top: 65px;
+    right: 2%;
+}
+
+.ButtonPlayAgain{
+    position: fixed;
+    width: 70%;
+    left: 68%;
+    top: 56%;
+    transform: translate(-50%, -50%);
+}
+
+.ButtonPlayAgain img {
+    cursor: pointer;
+    width: 25%;
+}
+
+#LastVideo, #FirstVideo{
+    z-index: -1;
+}
+
+@media only screen and (min-width: 1530px) and (max-width: 1700px) {
+    .ButtonChoosePain img{
+        right: 7%;
+    }
+}
+
+@media only screen and (min-width: 1701px){
+    .ButtonChoosePain img{
+        right: 7.5%;
+    }
+}
